@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CID SECURITE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="icon" type="image/x-icon" href="">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header id="">
+        <div class="container-fluid">
+            <div class="topNavbar pt-1">
+                <div class="logoNavbar px-5">
+                    <div class="logoNavbarWeb">
+                        <a class="hoverBackgroundRed" href="index.html">
+                            <img class="logoDimension" src="img/CIDSecuriteLogoVersion100x100.png"
+                                alt="LogoNavbar CID SECURITE">
+                        </a>
+                    </div>
+                </div>
+                <div class="">
+                    <a class="noUnderLineText hoverRed" href="index.html">
+                        <h3 class="TitleLogoNavbar pt-2 red-hat-display-900">CID SECURITE</h3>
+                    </a>
+                </div>
+                <div class="menuButtonNavbar pt-1">
+                    <i class="material-icons px-3 pt-2">menu</i>
+                </div>
+                <div class="listaNavbar goRightListaNavbar px-5 pt-3 pb-2">
+                    <div class="">
+                        <a class="hoverRed noUnderLineText TitleLogoNavbar px-3 pt-2 red-hat-display-500"
+                            href="Index.html">Accueil
+                        </a>
+                    </div>
+                    <div class="">
+                        <a class="hoverRed noUnderLineText TitleLogoNavbar px-3 pt-2 red-hat-display-500"
+                            href="Nos_Services.html" id="hoverActiveList">Nos Services 
+                        </a>
+                        <div id="listNos" class="py-1 listaNos">
+                            <a href="gardiennage_et_surveillance.html" class="hoverRed noUnderLineText p-3 smallP TitleLogoNavbar red-hat-display-600">GARDIENNAGE ET SURVEILLANCE</a>
+                            <br>
+                            <a href="securite_evenementielle.html" class="hoverRed noUnderLineText p-3 smallP TitleLogoNavbar red-hat-display-600">SÉCURITÉ ÉVÉNEMENTIELLE</a>
+                            <br>
+                            <a href="videosurveillance_et_telesurveillance.html" class="hoverRed noUnderLineText p-3 smallP TitleLogoNavbar red-hat-display-600">VIDÉOSURVEILLANCE ET TÉLÉSURVEILLANCE</a>
+                            <br>
+                            <a href="securite_incendie.html" class="hoverRed noUnderLineText p-3 smallP TitleLogoNavbar red-hat-display-600">SÉCURITÉ INCENDIE</a>
+                            <br>
+                            <a href="securite_cynophile.html" class="hoverRed noUnderLineText p-3 smallP TitleLogoNavbar red-hat-display-600">SÉCURITÉ CYNOPHILE</a>
+                            <br>
+                            <a href="installation_et_maintenance_de_materiels_de_securites.html" class="hoverRed noUnderLineText p-3 smallP TitleLogoNavbar red-hat-display-600">INSTALLATION ET MAINTENANCE DE MATÉRIELS DE SÉCURITÉS</a>
+                        </div>
+                    </div>
+                    <div class="">
+                        <a class="hoverRed noUnderLineText TitleLogoNavbar px-3 pt-2 red-hat-display-500"
+                            href="A_Propos_de_Nous.html">À
+                            Propos De Nous
+                        </a>
+                    </div>
+                    <div class="">
+                        <a class="hoverRed noUnderLineText TitleLogoNavbar px-3 pt-2 red-hat-display-500"
+                            href="Contact.html">Contact
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="section">
+        <div>
+            <div>
+                <div>
+                    <div class="redLineWeb"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <p class="whiteColorText roboto-light">CID SECURITE 2024 Nikola Stojilovic</p>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.7.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        function classToggle() {
+            const navs = document.querySelectorAll('.listaNavbar')
+            navs.forEach(nav => nav.classList.toggle('showMenuNavbar'));
+        }
+        document.querySelector('.menuButtonNavbar')
+            .addEventListener('click', classToggle);
+    </script>
+    <script>
+        const el = document.getElementById("hoverActiveList");
+        const hiddenDiv = document.getElementById("listNos");    
+        el.addEventListener('mouseover', function handleMouseOver() {
+            hiddenDiv.style.display = 'block';
+        });
+        el.addEventListener('mouseout', function handleMouseOut() {
+            hiddenDiv.style.display = 'none';
+        });
+    </script>
+    <script>
+        hiddenDiv.addEventListener('mouseover', function handleMouseOver() {
+            hiddenDiv.style.display = 'block'; 
+        });
+        hiddenDiv.addEventListener('mouseout', function handleMouseOut() {
+            hiddenDiv.style.display = 'none';
+        });
+        const timeOut = setTimeout(mouseTime, 100);
+        hiddenDiv.addEventListener('mosueout', function mouseTime() {
+            hiddenDiv.style.display = 'none';
+        });
+    </script>
+
+</body>
+
+</html>
