@@ -130,6 +130,7 @@ body{
   background-position: contain;
   background-size: 120%;
   scroll-behavior:smooth; 
+  -webkit-background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/photo2.jpg);
   -webkit-backdrop-filter: blur(100px);
   -webkit-background-position: contain;
   -webkit-background-size: 120%;
