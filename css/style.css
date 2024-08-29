@@ -57,11 +57,8 @@
     font-weight: 900;
     font-style: normal;
   }
-body{
-    background-color:#ffffff;
-}  
 .TitleLogoNavbar{
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(255, 255, 255, 0.8);
 }
 .noUnderLineText{
   text-decoration: none;
@@ -74,7 +71,7 @@ body{
  opacity: 1.5;
 }
 .redLineWeb{
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: red;
   height: 5px;
   width: 100%;
 }
@@ -110,47 +107,11 @@ body{
   max-height: auto;
   width: 120px;
 }
-.elementRight{
-  margin-left: auto;
-}
-.listNavbar a:hover{
-  color: red;
-}
 .menuNavbar{
   display: none;
 }
 .listNavbar{
   display: flex;
-}
-
-@media only screen and (max-width: 768px) {
-  .listNavbar{
-    flex-direction: column;
-  }
-  .navbar{
-    flex-direction: column;
-  }
-  .listNavbar{
-    display: none;
-  }
-  .elementRight{
-    margin-left: 0;
-  }
-  .listNavbarShow{
-    display: flex;
-  }
-  .logoNavbar{
-    display: none;
-  }
-  .logoNavbarWeb{
-    display: none;
-  }
-  .menuNavbar{
-      align-self: flex-end;
-      display: initial;
-      position: absolute;
-      cursor: pointer;
-  }
 }
 .blackOnTopPhoto{
   background-color: rgba(0, 0, 0, 0.6);
@@ -162,12 +123,20 @@ body{
   background-position-x: 50%;
   background-position-y: 50%;
 }
+body{
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/1000_F_840991625_DUwOuDdtdLRCLaNEE4eAl33XaQX6YMev.jpg);
+  backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(100px);
+  background-position: contain;
+  background-size: 120%;
+  scroll-behavior:smooth;
+}
 #logoTop{
   max-width: 100%;
   height: auto;
 }
 #topText{
-  color:#f1f1f1;
+  color: rgba(255, 255, 255, 0.9);
   align-content: center;
 }
 #BackCardGard{
@@ -176,10 +145,11 @@ body{
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-position-y: 50%;
-  color:#f1f1f1;
+  color: rgba(255, 255, 255, 0.9);
   max-width: 100%;
   height: auto;
   text-align: center;
+  border: 20px;
 }
 #BackCardEven{
   background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/1000_F_7566778_ILcVcjVBUqQR60bGdOT0bkcWdKqNKwPT.jpg);
@@ -187,10 +157,11 @@ body{
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-position-y: 50%;
-  color:#f1f1f1;
+  color: rgba(255, 255, 255, 0.9);
   max-width: 100%;
   height: auto;
   text-align: center;
+  border: 20px;
 }
 #BackCardTele{
   background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/photo2.jpg);
@@ -198,10 +169,11 @@ body{
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-position-y: 50%;
-  color:#f1f1f1;
+  color: rgba(255, 255, 255, 0.9);
   max-width: 100%;
   height: auto;
   text-align: center;
+  border: 20px;
 }
 #BackCardInce{
   background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/1000_F_572616742_P5WeEyEZo7JJEDX4g9QlquaApka4iNJ0.jpg);
@@ -209,10 +181,11 @@ body{
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-position-y: 50%;
-  color:#f1f1f1;
+  color: rgba(255, 255, 255, 0.9);
   max-width: 100%;
   height: auto;
   text-align: center;
+  border: 20px;
 }
 #BackCardCynop{
   background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/1000_F_498334000_3Je0dQAgG2rbpWFLRIWEHXaz8va02igR.jpg);
@@ -220,10 +193,11 @@ body{
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-position-y: 50%;
-  color:#f1f1f1;
+  color: rgba(255, 255, 255, 0.9);
   max-width: 100%;
   height: auto;
   text-align: center;
+  border: 20px;
 }
 #BackCardMaint{
   background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/1000_F_369000996_MuIqxw0ZDjCiHnDNjNkWPaf8GRa9zluB.jpg);
@@ -231,13 +205,14 @@ body{
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-position-y: 50%;
-  color:#f1f1f1;
+  color: rgba(255, 255, 255, 0.9);
   max-width: 100%;
   height: auto;
   text-align: center;
+  border: 20px;
 }
 .shadowBox{
-  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2), 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.9), 2px 2px 5px 0px rgba(0, 0, 0, 0.9);
   border-radius: 5px;
 }
 #ShadowInBox{
@@ -246,13 +221,11 @@ body{
 header {
   justify-content: center;
   align-items: center;
-  background-color:#ffffff;
-  color: rgba(0, 0, 0, 0.8);
-  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+  color: rgba(255, 255, 255, 0.8);
 }
 .topNavbar {
   display: flex;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(255, 255, 255, 0.8);
 }
 .listaNavbar {
   display: flex;
@@ -260,34 +233,30 @@ header {
 .listaNavbar a:hover {
   color: red;
 }
-
 .goRightListaNavbar {
   margin-left: auto;
 }
-
 .menuButtonNavbar{
   display: none;
 }
-
 @media only screen and (max-width: 768px) {
-
   .listaNavbar,
   .topNavbar {
       flex-direction: column;
   }
-
   .listaNavbar {
       display: none;
   }
-
+  .logoNavbarWeb,
+  .logoDimension{
+    display: none;
+  }
   .goRightListaNavbar {
       margin-left: 0;
   }
-
   .showMenuNavbar {
       display: flex;
   }
-
   .menuButtonNavbar {
       align-self: flex-end;
       display: initial;
@@ -295,11 +264,9 @@ header {
       cursor: pointer;
   }
 }
-
-.whiteColorText{
-  color:#f1f1f1;
+.whiteText{
+  color: rgba(255, 255, 255, 0.9);
 }
-
 .cards{
   display: grid;
   grid-auto-columns: 30%;
@@ -309,14 +276,14 @@ header {
 }
 @media (min-width: 0px){
   .cards{
-    grid-auto-columns: 100%;
-    grid-column-gap: 20px
+    grid-auto-columns: 80%;
+    grid-column-gap: 10px
   }
 }
 @media (min-width: 576px){
   .cards{
     grid-auto-columns: 80%;
-    grid-column-gap: 20px
+    grid-column-gap: 10px
   }
 }
 @media (min-width: 768px){
@@ -350,7 +317,7 @@ header {
   transition: all 0.2s;
 }
 .cards::-webkit-scrollbar {
-  background-color:#f1f1f1;
+  background-color: rgba(0, 0, 0, 0.4);
   height: 8px;
 }
 .cards::-webkit-scrollbar-thumb,
@@ -358,13 +325,13 @@ header {
   border-radius:5px;
 }
 .cards::-webkit-scrollbar-thumb{
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: red;
 }
-
 .FirstTextBox{
-  background-color: rgba(0, 0, 0, 0.02);
-  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2), 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.451);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.4), 2px 2px 5px 0px rgba(0, 0, 0, 0.4);
   border-radius: 5px;
+  color: rgba(255, 255, 255, 0.8);
 }
 #headText{
   font-size:xx-large;
@@ -373,7 +340,6 @@ header {
 p{
   font-size: larger;
 }
-
 .contacteNousPhoto{
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../img/1000_F_371581847_JJF0uBfMeHbBu4MxFTtgyeprbkDoAjlK.jpg);
   background-size: auto, cover;
@@ -386,7 +352,7 @@ p{
   height: 200px;
 }
 #contactezNousButton{
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(255,0,0,0.8);
   display: flex;
   justify-content: center;
   text-align: center;
@@ -395,14 +361,8 @@ p{
   border-radius: 5px;
   margin-top: 100px;
 }
-
-.socialNetworks{
-  width: 50px;
-  height: auto;
-}
-#social{
-  width: 50px;
-  height: auto;
+#contactezNousButton :hover{
+  zoom: 1.02;
 }
 #imageForm{
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../img/1000_F_572616742_P5WeEyEZo7JJEDX4g9QlquaApka4iNJ0.jpg);
@@ -411,24 +371,16 @@ p{
   width: 100%;
   height: 400px;
 }
-.backgroundDark{
-  background-color: rgba(0, 0, 0, 0.4);
-  max-height: 120px;
-  width: 40%;
-  border-radius: 2px;
-}
 footer{
-  background-color: rgba(0, 0, 0, 0.8);
-  font-size: small;
-  text-align: center;
+  background-color: rgba(0, 0, 0, 0.9);
   justify-content: center;
-  height: 100px;
+  height: fit-content;
 }
-
 .listaNos{
   display: none;
   position:absolute;
-  background-color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.8);
+  color:rgba(255, 255, 255, 0.8);
   min-width: fit-content;
   height: auto;
   border-radius: 5px;
@@ -436,9 +388,32 @@ footer{
 .smallP{
   font-size: small;
 }
-
+.smallExP{
+  font-size: x-small;
+}
 @media only screen and (max-width: 768px) {
   .listaNos{
     position:sticky;
   }
+}
+.backgroundColor{
+  background-color: rgba(0, 0, 0, 0.851);
+}
+.redText{
+  color: red;
+}
+.iconSize{
+  max-height: 35px;
+  width: auto;
+}
+.textBoxFit{
+  text-align: justify;
+}
+.photoFitBox{
+  height: auto;
+  width: 100%;
+}
+.photoDark{
+  filter: brightness(80%);
+  border-radius: 5px;
 }
