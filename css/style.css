@@ -124,18 +124,18 @@
   background-position-y: 50%;
 }
 body{
-  background-image: url(../img/photo2.jpg);
+   background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/1000_F_840991625_DUwOuDdtdLRCLaNEE4eAl33XaQX6YMev.jpg);
+  -webkit-background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/1000_F_840991625_DUwOuDdtdLRCLaNEE4eAl33XaQX6YMev.jpg); 
+  -webkit-backdrop-filter: blur(100px);
+  -webkit-background-position: contain;
+  -webkit-background-size: 120%;
+  -webkit-scroll-behavior:smooth;
+  -webkit-background-repeat: repeat;
+  background-repeat: repeat;
   backdrop-filter: blur(100px);
   background-position: fixed;
   background-size: 120%;
-  background-repeat: repeat;
-  scroll-behavior:smooth; 
-  -webkit-background-image: url(../img/photo2.jpg);
-  -webkit-backdrop-filter: blur(100px);
-  -webkit-background-position: fixed;
-  -webkit-background-size: 120%;
-  -webkit-background-repeat: repeat;
-  -webkit-scroll-behavior:smooth;
+  scroll-behavior:smooth;
 }
 #logoTop{
   max-width: 100%;
