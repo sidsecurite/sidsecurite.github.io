@@ -126,9 +126,9 @@
 body{
   background-image: url(../img/photo2.jpg);
   backdrop-filter: blur(100px);
-  -webkit-backdrop-filter: blur(100px);
   background-position: fixed;
   background-size: 120%;
+  background-repeat: repeat;
   scroll-behavior:smooth; 
   -webkit-background-image: url(../img/photo2.jpg);
   -webkit-backdrop-filter: blur(100px);
