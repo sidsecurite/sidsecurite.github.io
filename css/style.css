@@ -124,15 +124,15 @@
   background-position-y: 50%;
 }
 body{
-  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/photo2.jpg);
+  background-image: url(../img/photo2.jpg);
   backdrop-filter: blur(100px);
   -webkit-backdrop-filter: blur(100px);
-  background-position: contain;
+  background-position: fixed;
   background-size: 120%;
   scroll-behavior:smooth; 
-  -webkit-background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/photo2.jpg);
+  -webkit-background-image: url(../img/photo2.jpg);
   -webkit-backdrop-filter: blur(100px);
-  -webkit-background-position: contain;
+  -webkit-background-position: fixed;
   -webkit-background-size: 120%;
   -webkit-background-repeat: repeat;
   -webkit-scroll-behavior:smooth;
