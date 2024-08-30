@@ -428,3 +428,8 @@ footer{
   height: 600px;
   width: auto;
 }
+.photoFit-250{
+  height: 250px;
+  width: auto;
+  border-radius: 5px;
+}
