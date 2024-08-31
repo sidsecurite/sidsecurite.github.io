@@ -54,7 +54,7 @@
                             <i class="fa fa-caret-down smallP"></i>
                         </a>
                         <div id="listNos" class="hoverRed listaNos p-3 red-hat-display-400 textWrap">
-                            <a href="nos_services.html" class="noUnderLineText red-hat-display-400  whiteText">
+                            <a href="nos_services.html" class="noUnderLineText red-hat-display-400 whiteText">
                                 Tous Nos Services
                             </a>
                             <hr class="m-1">
@@ -106,17 +106,17 @@
                     <div class="container-fluid">
                         <div class="row justify-content-center py-5 px-3">
                             <div class="col-sm-11 col-md-8 col-11">
-                                <h3 class="textBoxFit py-5 red-hat-display-300 whiteText">
+                                <h3 class="textBoxFit py-5 red-hat-display-300 whiteText fade-in">
                                     Nos solutions sont conçues pour non seulement répondre aux besoins immédiats mais
                                     aussi pour prévoir l'imprévisible. En collaboration étroite avec vos équipes, nous
                                     créons des environnements où la sécurité est une évidence, sans compromettre
                                     l'expérience utilisateur.
                                 </h3>
-                                <h1 class="whiteText red-hat-display-300 textCentre py-3">
+                                <h1 class="whiteText red-hat-display-300 textCentre py-3 fade-in">
                                     IDS, la Clé de Votre Sérénité
                                 </h1>
                             </div>
-                            <div class="col-5 col-md-3 logo textCentre">
+                            <div class="col-5 col-md-3 logo textCentre fade-in">
                                 <img src="img/CIDSecuriteLogoVersion400X400.png" id="logoTop">
                             </div>
                         </div>
@@ -126,7 +126,7 @@
         </div>
     </section>
     <section>
-        <div class="py-5">
+        <div class="py-5 fade-in">
             <div class="container-fluid ">
                 <div class="row justify-content-center">
                     <div class="col-sm-11 col-md-10 col-11 textDarkBox p-3">
@@ -137,7 +137,7 @@
                             Avec IDS SECURITE, optez pour une tranquillité d'esprit totale grâce à une équipe dévouée et
                             expérimentée.
                             <a href="a_propos_de_nous.html">
-                                En savoir plus.
+                                En savoir plus >
                             </a>
                         </p>
                     </div>
@@ -145,7 +145,7 @@
             </div>
         </div>
     </section>
-    <section id="section">
+    <section class="fade-in">
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-10">
@@ -158,7 +158,7 @@
             </div>
         </div>
     </section>
-    <section id="section">
+    <section class="fade-in">
         <div class="container-fluid hoverRed px-5">
             <div class="row py-5 cards no-gutters">
                 <div class="card backCard" id="BackCardGard">
@@ -219,7 +219,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="fade-in">
         <div>
             <div class="container-fluid FirstTextBox py-5">
                 <div class="row justify-content-center py-5">
@@ -241,9 +241,9 @@
         </div>
     </section>
     <section id="section">
-        <div class="container-fluid">
+        <div class="container-fluid fade-in">
             <div class="row justify-content-center">
-                <div class="col-10">
+                <div class="col-10 pb-5">
                     <div class="py-5">
                         <h2 class="red-hat-display-400 whiteText textCentre">
                             Au-delà de la protection, la tranquillité assurée.
@@ -253,11 +253,11 @@
             </div>
         </div>
     </section>
-    <section id="section">
+    <section id="section" class="fade-in">
         <div id="contacteNousPhoto" class="contacteNousPhoto m-0">
             <div class="container-fluid">
                 <div class="row justify-content-center">
-                    <div class="" id="contactezNousButton">
+                    <div id="contactezNousButton">
                         <a href="contact.html" class="whiteText red-hat-display-300 noUnderLineText">
                             <div class="py-2">
                                 <p class="m-0">
@@ -355,6 +355,90 @@
     </footer>
     <script src="js/jquery-3.7.1.slim.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const elements = document.querySelectorAll('.fade-left');
+
+            const isInViewport = (element) => {
+                const rect = element.getBoundingClientRect();
+                return (
+                    rect.top <= (window.innerHeight || document.documentElement.clientHeight) &&
+                    rect.bottom >= 0
+                );
+            };
+
+            const checkVisibility = () => {
+                elements.forEach(element => {
+                    if (isInViewport(element)) {
+                        element.classList.add('visible');
+                    } else {
+                        element.classList.remove('visible');
+                    }
+                });
+            };
+
+            window.addEventListener('scroll', checkVisibility);
+            window.addEventListener('resize', checkVisibility);
+            checkVisibility(); // Check on page load
+        });
+
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const elements = document.querySelectorAll('.fade-right');
+
+            const isInViewport = (element) => {
+                const rect = element.getBoundingClientRect();
+                return (
+                    rect.top <= (window.innerHeight || document.documentElement.clientHeight) &&
+                    rect.bottom >= 0
+                );
+            };
+
+            const checkVisibility = () => {
+                elements.forEach(element => {
+                    if (isInViewport(element)) {
+                        element.classList.add('visible');
+                    } else {
+                        element.classList.remove('visible');
+                    }
+                });
+            };
+
+            window.addEventListener('scroll', checkVisibility);
+            window.addEventListener('resize', checkVisibility);
+            checkVisibility(); // Check on page load
+        });
+
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const elements = document.querySelectorAll('.fade-in');
+
+            const isInViewport = (element) => {
+                const rect = element.getBoundingClientRect();
+                return (
+                    rect.top <= (window.innerHeight || document.documentElement.clientHeight) &&
+                    rect.bottom >= 0
+                );
+            };
+
+            const checkVisibility = () => {
+                elements.forEach(element => {
+                    if (isInViewport(element)) {
+                        element.classList.add('visible');
+                    } else {
+                        element.classList.remove('visible');
+                    }
+                });
+            };
+
+            window.addEventListener('scroll', checkVisibility);
+            window.addEventListener('resize', checkVisibility);
+            checkVisibility(); // Check on page load
+        });
+
+    </script>
     <script>
         function classToggle() {
             const navs = document.querySelectorAll('.listaNavbar')

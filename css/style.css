@@ -77,9 +77,14 @@ body{
   height: auto;
   width: 100%;
 }
-.photoDark{
-  filter: brightness(80%);
-  border-radius: 5px;
+.photoDarker{
+  filter:
+  contrast(110%)
+  brightness(80%);
+}
+ul{
+  list-style-position: outside;
+  list-style-type: square;
 }
 .photoFit-250{
   height: 250px;
@@ -208,8 +213,7 @@ body{
   margin-top: 100px;
 }
 #contactezNousButton :hover{
-  font-weight: 900;
-  zoom: 1.02;
+  color: black;
 }
 .mapDark{
   filter: brightness(80%);
@@ -378,8 +382,35 @@ footer{
     position:sticky;
   }
 }
+.fade-in {
+  opacity: 0;
+  transition: opacity 1.651s ease-in-out;
+}
 
+.fade-in.visible {
+  opacity: 1;
+}
 
+.fade-right {
+  opacity: 0;
+  transform: translateX(100%);
+  transition: transform 1s ease-out, opacity 1s ease-out;
+}
 
+.fade-right.visible {
+  opacity: 1;
+  transform: translateX(0); 
+}
+
+.fade-left {
+  opacity: 0;
+  transform: translateX(-100%); 
+  transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+.fade-left.visible {
+  opacity: 1;
+  transform: translateX(0); 
+}
 
 
