@@ -117,15 +117,11 @@ ul{
 }
 .logoDimension{
   max-height: auto;
-  width: 180px;
-  border-radius: 5px;
-  background-color: rgba(255,255,255,0.651);
+  width: 150px;
 }
 .logoFooterDimension{
   max-height: auto;
   width: 200px;
-  border-radius: 5px;
-  background-color: rgba(255,255,255,0.151);
 }
 #groundPhotoBack{
   background-image: linear-gradient(rgba(0,0,0,0.851),rgba(0,0,0,0.851)), url(../img/1000_F_840991625_DUwOuDdtdLRCLaNEE4eAl33XaQX6YMev.jpg);
@@ -137,9 +133,6 @@ ul{
 #logoTop{
   max-width: 100%;
   height: auto;
-  
-  border-radius: 5px;
-  background-color: rgba(255,255,255,0.651);
 }
 #BackCardGard{
   background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/photo1.jpg);
