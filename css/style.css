@@ -1,16 +1,13 @@
-
   .roboto-300 {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
   }
-  
   .roboto-400 {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
-  
   .roboto-500 {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -51,18 +48,14 @@
     font-weight: 900;
     font-style: normal;
   }
-
 body{
-  background-image: linear-gradient(rgba(37, 40, 66, 0.6),rgba(0, 0, 0, 0.6)),url(../img/1000_F_840991625_DUwOuDdtdLRCLaNEE4eAl33XaQX6YMev.jpg);
-  -webkit-background-image: linear-gradient(rgba(37, 40, 66, 0.6),rgba(0,0,0,0.6)),url(../img/1000_F_840991625_DUwOuDdtdLRCLaNEE4eAl33XaQX6YMev.jpg); 
-  -webkit-backdrop-filter: blur(100px);
+  background-image: linear-gradient(rgba(37, 40, 66, 0.6),rgba(0, 0, 0, 0.6)),url(../img/IDSsecuriteBgPhoto2.png);
   -webkit-background-position: contain;
-  -webkit-background-size: 120%;
+  -webkit-background-size: 150%;
   -webkit-background-repeat: repeat;
   background-repeat: repeat;
-  backdrop-filter: blur(100px);
   background-position: fixed;
-  background-size: 120%;
+  background-size: 150%;
 }
 .redLineWeb{
   background-color: red;
@@ -111,13 +104,9 @@ ul{
   height: auto;
   width: 100%;
 }
-.logoNavbarWeb{
-  height: 40px;
-  width: auto;
-}
 .logoDimension{
   max-height: auto;
-  width: 150px;
+  width: 50px;
 }
 .logoFooterDimension{
   max-height: auto;
@@ -135,29 +124,29 @@ ul{
   height: auto;
 }
 #BackCardGard{
-  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/photo1.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/photo1.jpg);
 }
 #BackCardEven{
-  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/1000_F_7566778_ILcVcjVBUqQR60bGdOT0bkcWdKqNKwPT.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/1000_F_7566778_ILcVcjVBUqQR60bGdOT0bkcWdKqNKwPT.jpg);
 }
 #BackCardTele{
-  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/photo2.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/photo2.jpg);
 }
 #BackCardInce{
-  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/1000_F_572616742_P5WeEyEZo7JJEDX4g9QlquaApka4iNJ0.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../img/1000_F_572616742_P5WeEyEZo7JJEDX4g9QlquaApka4iNJ0.jpg);
 }
 #BackCardCynop{
-  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/1000_F_498334000_3Je0dQAgG2rbpWFLRIWEHXaz8va02igR.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../img/1000_F_498334000_3Je0dQAgG2rbpWFLRIWEHXaz8va02igR.jpg);
 }
 #BackCardMaint{
-  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/1000_F_369000996_MuIqxw0ZDjCiHnDNjNkWPaf8GRa9zluB.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../img/1000_F_369000996_MuIqxw0ZDjCiHnDNjNkWPaf8GRa9zluB.jpg);
 }
 .backCard{
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-position-y: 50%;
-  color: rgba(255, 255, 255, 0.651);
+  color: rgba(255, 255, 255, 0.751);
   max-width: auto;
   height: 100%;
   text-align: center;
@@ -214,7 +203,7 @@ ul{
   filter: brightness(80%);
 }
 .darkBox{
-  background-color: rgba(0, 0, 0, 0.551);
+  background-color: rgba(0, 0, 0, 0.751);
 }
 .shadowBox{
   box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.9), 2px 2px 5px 0px rgba(0, 0, 0, 0.9);
@@ -230,6 +219,9 @@ ul{
 .textCentre{
   text-align: center;
 }
+.textLeft{
+  text-align: start;
+}
 .noUnderLineText{
   text-decoration: none;
   text-decoration-line: none;
@@ -238,7 +230,7 @@ ul{
   color: red;
 }
 .whiteText{
-  color: rgba(255, 255, 255, 0.651);
+  color: rgba(255, 255, 255, 0.751);
 }
 .hoverRed :hover{
   color: red;
@@ -327,19 +319,18 @@ p{
   display: none;
 }
 footer{
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.6);
   justify-content: center;
   height: fit-content;
 }
 .listaNos{
   display: none;
   position:absolute;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.8);
   color:rgba(255, 255, 255, 0.8);
   width: auto;
   border-radius: 5px;
 }
-
 @media only screen and (max-width: 768px) {
   .listaNavbar,
   .topNavbar {
@@ -365,7 +356,6 @@ footer{
       cursor: pointer;
   }
 }
-
 @media (min-width: 0px){
   .cards{
     grid-auto-columns: 80%;
@@ -402,21 +392,57 @@ footer{
     grid-column-gap: 20px
   }
 }
-
 @media only screen and (max-width: 768px) {
   .listaNos{
     position:sticky;
   }
 }
-
-
 .fade-in {
   opacity: 0;
-  transition: opacity 1.651s ease-in-out;
+  transition: opacity 1.3s ease-in-out;
 }
 .fade-in.visible {
   opacity: 1;
 }
-
-
-
+.emptyBox{
+  height: 61px;
+}
+.emptyBoxBig{
+  height: 720px;
+}
+.form-group{
+  margin-top: 5px;
+  font-size:large;
+}
+.form-group label{
+  display: block;
+  margin-bottom:1px
+}
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"] {
+  box-sizing: border-box;
+  width: 100%;
+}
+.envoyeButton,
+.form-group input[type="submit"]{
+  width: 98%;
+  background-color:rgba(0, 0, 0, 0.851);
+  color:red;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.envoyeButton:hover ,
+.form-group input[type="submit"]:hover{
+  background-color: red;
+  color: rgba(255, 255, 255, 0.751)
+}
+.inputField{
+  background-color: rgba(255, 255, 255, 0.451);
+  color: rgba(0, 0, 0, 0.951);
+}
+.textRight{
+  text-align: end;
+}
