@@ -1,0 +1,632 @@
+  .roboto-300 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .roboto-400 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .roboto-500 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .roboto-700 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .red-hat-display-300 {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .red-hat-display-400 {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .red-hat-display-500 {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .red-hat-display-600 {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .red-hat-display-900 {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  body {
+    background-image: linear-gradient(rgba(37, 40, 66, 0.6), rgba(0, 0, 0, 0.6)), url(../img/IDSsecuriteBgPhoto2.png);
+    -webkit-background-position: contain;
+    -webkit-background-size: 150%;
+    -webkit-background-repeat: repeat;
+    background-repeat: repeat;
+    background-position: fixed;
+    background-size: 150%;
+  }
+
+  .redLineWeb {
+    background-color: red;
+    height: 5px;
+    width: 100%;
+  }
+
+  .emptyBox {
+    height: 600px;
+    width: auto;
+  }
+
+  .photoFitBox {
+    height: auto;
+    width: 100%;
+  }
+
+  .photoDarker {
+    filter:
+      contrast(110%) brightness(80%);
+  }
+
+  ul {
+    list-style-position: outside;
+    list-style-type: square;
+  }
+
+  .photoFit-250 {
+    height: 250px;
+    width: auto;
+    border-radius: 5px;
+  }
+
+  .iconSize {
+    max-height: 35px;
+    width: auto;
+  }
+
+  .backgroundColor {
+    background-color: rgba(0, 0, 0, 0.851);
+    -webkit-background-color: rgba(0, 0, 0, 0.851);
+  }
+
+  #photoLogo {
+    display: inline-flex;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+  }
+
+  #photoText {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+  }
+
+  .logoDimension {
+    max-height: auto;
+    width: 50px;
+  }
+
+  .logoFooterDimension {
+    max-height: auto;
+    width: 200px;
+  }
+
+  #groundPhotoBack {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.851), rgba(0, 0, 0, 0.851)), url(../img/AdobeStock_840991625.jpeg);
+    background-size: auto, cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+  }
+
+  #logoTop {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #BackCardGard {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/AdobeStock_116906518.jpeg);
+  }
+
+  #BackCardEven {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/AdobeStock_843947231.jpeg);
+  }
+
+  #BackCardTele {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/AdobeStock_419896756.jpeg);
+  }
+
+  #BackCardInce {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/AdobeStock_572616742.jpeg);
+  }
+
+  #BackCardCynop {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/AdobeStock_170773504.jpeg);
+  }
+
+  #BackCardMaint {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/AdobeStock_369000996.jpeg);
+  }
+
+  .backCard {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    color: rgba(255, 255, 255, 0.751);
+    max-width: auto;
+    height: 100%;
+    text-align: center;
+    border: 20px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    transition: all 0.2s;
+    padding-top: 150px;
+  }
+
+  .cards {
+    display: grid;
+    grid-auto-columns: 40%;
+    grid-column-gap: 20px;
+    grid-auto-flow: column;
+    overflow-x: scroll;
+  }
+
+  .cards::-webkit-scrollbar {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 5px;
+  }
+
+  .cards::-webkit-scrollbar-thumb,
+  .cards::-webkit-scrollbar-track {
+    border-radius: 5px;
+  }
+
+  .cards::-webkit-scrollbar-thumb {
+    background-color: red;
+  }
+
+  .contacteNousPhoto {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/AdobeStock_371581847.jpeg);
+    background-size: auto, cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+  }
+
+  #contacteNousPhoto {
+    max-width: auto;
+    height: 200px;
+  }
+
+  #contactezNousButton {
+    background-color: rgba(255, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: fit-content;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 100px;
+  }
+
+  #contactezNousButton :hover {
+    color: black;
+  }
+
+  .mapDark {
+    filter: brightness(80%);
+  }
+
+  .darkBox {
+    background-color: rgba(0, 0, 0, 1);
+  }
+
+  .shadowBox {
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.9), 2px 2px 5px 0px rgba(0, 0, 0, 0.9);
+    border-radius: 5px;
+  }
+
+  #ShadowInBox {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2) inset;
+  }
+
+  .textDarkBox {
+    background-color: rgba(0, 0, 0, 0.451);
+    border-radius: 5px;
+  }
+
+  .textCentre {
+    text-align: center;
+  }
+
+  .textLeft {
+    text-align: start;
+  }
+
+  .noUnderLineText {
+    text-decoration: none;
+    text-decoration-line: none;
+  }
+
+  .redText {
+    color: red;
+  }
+
+  .whiteText {
+    color: rgba(255, 255, 255, 0.751);
+  }
+
+  .hoverRed :hover {
+    color: red;
+  }
+
+  .textBoxFit {
+    text-align: justify;
+  }
+
+  .textWrap {
+    text-wrap: pretty;
+    text-align: left;
+  }
+
+  .lineBetween {
+    height: 2px;
+    width: auto;
+    background-color: red;
+    color: red;
+  }
+
+  .textBox {
+    background-color: rgba(0, 0, 0, 0.451);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .mouse {
+    cursor: pointer;
+  }
+
+  p {
+    font-size: larger;
+  }
+
+  .largeP {
+    font-size: larger;
+  }
+
+  .xLargeP {
+    font-size: x-large;
+  }
+
+  .exLargeP {
+    font-size: xx-large;
+  }
+
+  .smallP {
+    font-size: small;
+  }
+
+  .smallExP {
+    font-size: x-small;
+  }
+
+  @media (min-width: 0px) {
+    .bigLetters {
+      font-size: 60px;
+    }
+  }
+
+  @media (min-width: 576px) {
+    .bigLetters {
+      font-size: 60px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .bigLetters {
+      font-size: 60px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .bigLetters {
+      font-size: 60px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .bigLetters {
+      font-size: 60px;
+    }
+  }
+
+  @media (min-width: 1400px) {
+    .bigLetters {
+      font-size: 100px;
+    }
+  }
+
+  .listNavbar,
+  .listaNavbar,
+  .topNavbar {
+    display: flex;
+  }
+
+  .goRight {
+    margin-left: auto;
+  }
+
+  .menuNavbar,
+  .menuButtonNavbar {
+    display: none;
+  }
+
+  footer {
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    height: fit-content;
+  }
+
+  .listaNos {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgba(255, 255, 255, 0.8);
+    width: auto;
+    border-radius: 5px;
+  }
+
+  @media only screen and (max-width: 768px) {
+
+    .listaNavbar,
+    .topNavbar {
+      flex-direction: column;
+    }
+
+    .listaNavbar {
+      display: none;
+    }
+
+    .logoNavbarWeb {
+      display: none;
+    }
+
+    .goRight {
+      margin-left: 0;
+    }
+
+    .showMenuNavbar {
+      display: flex;
+    }
+
+    .menuButtonNavbar {
+      align-self: flex-end;
+      display: initial;
+      position: absolute;
+      cursor: pointer;
+    }
+  }
+
+  @media (min-width: 0px) {
+    .cards {
+      grid-auto-columns: 80%;
+      grid-column-gap: 10px
+    }
+  }
+
+  @media (min-width: 576px) {
+    .cards {
+      grid-auto-columns: 80%;
+      grid-column-gap: 10px
+    }
+  }
+
+  @media (min-width: 768px) {
+    .cards {
+      grid-auto-columns: 60%;
+      grid-column-gap: 20px
+    }
+  }
+
+  @media (min-width: 992px) {
+    .cards {
+      grid-auto-columns: 40%;
+      grid-column-gap: 20px
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .cards {
+      grid-auto-columns: 30%;
+      grid-column-gap: 20px
+    }
+  }
+
+  @media (min-width: 1400px) {
+    .cards {
+      grid-auto-columns: 30%;
+      grid-column-gap: 20px
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .listaNos {
+      position: sticky;
+    }
+  }
+
+  .fade-in {
+    opacity: 0;
+    transition: opacity 1.3s ease-in-out;
+  }
+
+  .fade-in.visible {
+    opacity: 1;
+  }
+
+  .emptyBox {
+    height: 61px;
+  }
+
+  .emptyBoxBig {
+    height: 720px;
+  }
+
+  .form-group {
+    margin-top: 5px;
+    font-size: large;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 1px
+  }
+
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="tel"] {
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .envoyeButton,
+  .form-group input[type="submit"] {
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.851);
+    color: red;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .envoyeButton:hover,
+  .form-group input[type="submit"]:hover {
+    background-color: red;
+    color: rgba(255, 255, 255, 0.751)
+  }
+
+  .inputField {
+    background-color: rgba(255, 255, 255, 0.451);
+    color: rgba(0, 0, 0, 0.951);
+  }
+
+  .textRight {
+    text-align: end;
+  }
+
+  .lineUnder {
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 1px;
+    text-decoration-style: solid;
+    text-underline-offset: 10px;
+  }
+
+  .backgroundPhotoServices {
+    background-image: url(../img/AdobeStock_495833703.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 40%;
+    max-width: auto;
+    height: 300px;
+  }
+
+  .backgroundPhotoServicesGardiennage {
+    background-image: url(../img/AdobeStock_116906518.jpeg);
+  }
+
+  .backgroundPhotoServicesIncendie {
+    background-image: url(../img/AdobeStock_572616742.jpeg);
+  }
+
+  .backgroundPhotoServicesEvenementielle {
+    background-image: url(../img/AdobeStock_843947231.jpeg);
+  }
+
+  .backgroundPhotoServicesVideo {
+    background-image: url(../img/AdobeStock_419896756.jpeg);
+  }
+
+  .backgroundPhotoServicesCynophile {
+    background-image: url(../img/AdobeStock_170773504.jpeg);
+  }
+
+  .backgroundPhotoServicesInstallation {
+    background-image: url(../img/AdobeStock_369000996.jpeg);
+  }
+
+  .backgroundPhotoServicesNos {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    max-width: auto;
+    height: 350px;
+  }
+
+  .marginMinus {
+    margin-left: -20px;
+    margin-right: -20px
+  }
+
+  .cardsServices {
+    display: grid;
+    grid-auto-columns: 40%;
+    grid-column-gap: 20px;
+    grid-auto-flow: column;
+    overflow-x: scroll;
+  }
+
+  .cardsServices::-webkit-scrollbar {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 5px;
+  }
+
+  .cardsServices::-webkit-scrollbar-thumb,
+  .cardsServices::-webkit-scrollbar-track {
+    border-radius: 5px;
+  }
+
+  .cardsServices::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.751);
+  }
+
+  .devisButton {
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgba(255, 0, 0, 0.8);
+    color: rgba(255, 255, 255, 0.751);
+  }
+
+  .devisButton:hover {
+    color: rgba(0, 0, 0, 0.851);
+  }
