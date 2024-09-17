@@ -84,8 +84,8 @@
   }
 
   .photoDarker {
-    filter:
-      contrast(110%) brightness(80%);
+    filter: contrast(110%);
+    filter: brightness(80%);
   }
 
   ul {
@@ -141,16 +141,13 @@
     background-position-y: 50%;
   }
 
-
   #logoTop {
     max-width: 100%;
     height: auto;
-
   }
 
   #BackCardGard {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/AdobeStock_116906518.jpeg);
-
   }
 
   #BackCardEven {
@@ -197,19 +194,10 @@
   }
 
   .cards::-webkit-scrollbar {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: red;
     height: 5px;
   }
-
-  .cards::-webkit-scrollbar-thumb,
-  .cards::-webkit-scrollbar-track {
-    border-radius: 5px;
-  }
-
-  .cards::-webkit-scrollbar-thumb {
-    background-color: red;
-  }
-
+  
   .contacteNousPhoto {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/AdobeStock_371581847.jpeg);
     background-size: auto, cover;
@@ -266,6 +254,9 @@
 
   .textLeft {
     text-align: start;
+  }
+  .textRight{
+    text-align:end;
   }
 
   .noUnderLineText {
@@ -516,7 +507,6 @@
     width: 100%;
   }
 
-
   .form-group input[type="text"],
   .form-group input[type="email"],
   .form-group input[type="tel"] {
@@ -527,18 +517,18 @@
   .envoyeButton,
   .form-group input[type="submit"] {
     width: fit-content;
-    background-color: rgba(0, 0, 0, 0.851);
-    color: red;
     padding: 10px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    color: rgba(255, 255, 255, 0.751);
+    background-color: red;
   }
 
   .envoyeButton:hover,
   .form-group input[type="submit"]:hover {
     background-color: red;
-    color: rgba(255, 255, 255, 0.751)
+    color: rgba(0, 0, 0, 0.851);
   }
 
   .inputField {
