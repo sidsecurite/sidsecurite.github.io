@@ -58,7 +58,7 @@
   }
 
   body {
-    background-image: linear-gradient(rgba(37, 40, 66, 0.6), rgba(0, 0, 0, 0.6)), url(../img/IDSsecuriteBgPhoto2.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
     -webkit-background-position: contain;
     -webkit-background-size: 150%;
     -webkit-background-repeat: repeat;
@@ -90,7 +90,7 @@
 
   ul {
     list-style-position: outside;
-    list-style-type: square;
+    list-style-type: circle;
   }
 
   .photoFit-250 {
@@ -125,20 +125,21 @@
 
   .logoDimension {
     max-height: auto;
-    width: 50px;
+    width: 40px;
   }
 
   .logoFooterDimension {
     max-height: auto;
-    width: 200px;
+    width: 150px;
   }
 
   #groundPhotoBack {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/AdobeStock_840991625.jpeg);
-    background-size: auto, cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/AdobeStock_572616742.jpeg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position-x: 50%;
     background-position-y: 50%;
+    width: auto;
   }
 
   #logoTop {
@@ -160,10 +161,6 @@
 
   #BackCardCynop {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/AdobeStock_170773504.jpeg);
-  }
-
-  #BackCardMaint {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/AdobeStock_369000996.jpeg);
   }
 
   .backCard {
@@ -196,7 +193,16 @@
 
   .cards::-webkit-scrollbar {
     background-color: transparent;
-    height: 5px;
+    height: 2px;
+  }
+
+  .cards::-webkit-scrollbar-button{
+    background-color: transparent;
+    width: 50px;
+  }
+
+  .cards::-webkit-scrollbar-thumb{
+    background-color: rgba(255, 255, 255, 0.7);
   }
 
   .cardss::-webkit-scrollbar {
@@ -214,7 +220,7 @@
 
   #contacteNousPhoto {
     max-width: auto;
-    height: 200px;
+    height: 300px;
   }
 
   #contactezNousButton {
@@ -379,13 +385,19 @@
     margin-left: auto;
   }
 
+  .goLeft{
+    margin-right: auto;
+    justify-content: end;
+    text-align: end;
+  }
+
   .menuNavbar,
   .menuButtonNavbar {
     display: none;
   }
 
   footer {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 1);
     justify-content: center;
     height: fit-content;
   }
@@ -393,13 +405,13 @@
   .listaNos {
     display: none;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 1);
     color: rgba(255, 255, 255, 0.8);
     width: auto;
-    border-radius: 5px;
+    border-radius: 2px;
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 840px) {
 
     .listaNavbar,
     .topNavbar {
@@ -638,7 +650,7 @@
   }
 
   .darkBoxTrans {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.8);
     border-radius: 5px;
     padding: 10px;
   }
@@ -653,3 +665,23 @@
     justify-content: center;
     margin: 20px;
   }
+
+  .iconCont{
+    max-width: 60px;
+    min-width: 60px;
+    height:auto;
+  }
+
+  .marginCentre {
+    margin-top: 15px;
+    text-align: start;
+    margin-left: 20px;
+  }
+
+  .marginCentreLoc {
+    margin-top: 1px;
+    text-align: start;
+    margin-left: 20px;
+  }
+  
+  
