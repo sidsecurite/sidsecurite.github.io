@@ -69,7 +69,7 @@
 
   .redLineWeb {
     background-color: red;
-    height: 5px;
+    height: 3px;
     width: 100%;
   }
 
@@ -185,7 +185,8 @@
     padding-top: 150px;
   }
 
-  .cards {
+  .cards,
+  .cardss {
     display: grid;
     grid-auto-columns: 40%;
     grid-column-gap: 20px;
@@ -194,7 +195,12 @@
   }
 
   .cards::-webkit-scrollbar {
-    background-color: red;
+    background-color: transparent;
+    height: 5px;
+  }
+
+  .cardss::-webkit-scrollbar {
+    background-color: transparent;
     height: 5px;
   }
   
@@ -227,7 +233,7 @@
   }
 
   .mapDark {
-    filter: brightness(80%);
+    filter: brightness(90%);
   }
 
   .darkBox {
@@ -347,19 +353,19 @@
 
   @media (min-width: 992px) {
     .bigLetters {
-      font-size: 60px;
+      font-size: 70px;
     }
   }
 
   @media (min-width: 1200px) {
     .bigLetters {
-      font-size: 60px;
+      font-size: 70px;
     }
   }
 
   @media (min-width: 1400px) {
     .bigLetters {
-      font-size: 100px;
+      font-size: 80px;
     }
   }
 
@@ -425,42 +431,48 @@
   }
 
   @media (min-width: 0px) {
-    .cards {
+    .cards,
+    .cardss {
       grid-auto-columns: 80%;
       grid-column-gap: 10px
     }
   }
 
   @media (min-width: 576px) {
-    .cards {
+    .cards,
+    .cardss {
       grid-auto-columns: 80%;
       grid-column-gap: 10px
     }
   }
 
   @media (min-width: 768px) {
-    .cards {
+    .cards,
+    .cardss {
       grid-auto-columns: 60%;
       grid-column-gap: 20px
     }
   }
 
   @media (min-width: 992px) {
-    .cards {
+    .cards,
+    .cardss {
       grid-auto-columns: 40%;
       grid-column-gap: 20px
     }
   }
 
   @media (min-width: 1200px) {
-    .cards {
+    .cards,
+    .cardss{
       grid-auto-columns: 30%;
       grid-column-gap: 20px
     }
   }
 
   @media (min-width: 1400px) {
-    .cards {
+    .cards,
+    .cardss {
       grid-auto-columns: 30%;
       grid-column-gap: 20px
     }
@@ -555,7 +567,7 @@
     background-position-x: 50%;
     background-position-y: 40%;
     max-width: auto;
-    height: 300px;
+    height: 350px;
   }
 
   .backgroundPhotoServicesGardiennage {
@@ -633,4 +645,11 @@
 
   .lessBigLetters {
     font-size: 40px;
+  }
+
+  .iconNos {
+    max-width: 100px;
+    height: auto;
+    justify-content: center;
+    margin: 20px;
   }
